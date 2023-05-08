@@ -16,7 +16,7 @@ By running a single command, you will get a production-ready Node.js app install
 ## Installation 🏭
 
 ```bash
-$ npm install -g express-server
+$ npm install -g express-server-kit
 ```
 
 ## Quick Start 🏃‍♂️
