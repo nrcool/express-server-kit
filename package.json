@@ -1,6 +1,6 @@
 {
   "name": "express-server-kit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "app.js",
   "type": "module",
@@ -9,6 +9,10 @@
   },
   "bin": {
     "express-server": "./bin/cli.js"
+  },
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/nrcool/express-server-kit"
   },
   "keywords": [
     "express",

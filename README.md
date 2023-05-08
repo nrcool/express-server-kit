@@ -1,4 +1,4 @@
-![boilerplate](./boilerplate.png)
+![boilerplate](/boilerplate.png)
 
 # express-server-kit
 
