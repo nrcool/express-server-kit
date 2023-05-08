@@ -49,7 +49,7 @@ function start() {
 
     console.log("🚚 Bootstrapping Express app in", chalk.green(rootPath), "\n");
 
-    const templatePath =`/usr/local/lib/node_modules/express-boilerplate/template/`
+    const templatePath =`/usr/local/lib/node_modules/express-server-kit/template/`
     copyAllFiles(templatePath, rootPath);
    
 
