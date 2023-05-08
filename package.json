@@ -1,6 +1,6 @@
 {
   "name": "express-server-kit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "app.js",
   "type": "module",
@@ -10,7 +10,15 @@
   "bin": {
     "express-server": "./bin/cli.js"
   },
-  "keywords": ["express","express server","restapi","rest-api","boilerplate","mode express boilerplate","boilder code"],
+  "keywords": [
+    "express",
+    "express server",
+    "restapi",
+    "rest-api",
+    "boilerplate",
+    "mode express boilerplate",
+    "boilder code"
+  ],
   "author": "naqvi",
   "license": "MIT",
   "dependencies": {
