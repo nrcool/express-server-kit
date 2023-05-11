@@ -4,6 +4,7 @@ import dotenv from "dotenv"
 import indexRoutes from "./routes/indexRoutes.js"
 import userRoutes from "./routes/userRoutes.js"
 import mongoose from "mongoose";
+import morgan from "morgan"
 //load env variables
 dotenv.config()
 
@@ -18,7 +19,7 @@ app.use(cors({origin:"*"})) //handle cors error(allow all cross origins)
 app.use(express.json()) //parse json data
 app.use(express.urlencoded({extended:true}))//parse form-urlencoded data
 app.use(express.static("views/public")) //serve static files from public folder
-
+app.use(morgan("dev")) //log all incoming requests info
 //Routes
 // index
 app.use("/", indexRoutes)
