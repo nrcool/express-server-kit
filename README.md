@@ -1,3 +1,4 @@
+
 ![boilerplate](/boilerplate.png)
 
 # express-server-kit
@@ -18,23 +19,26 @@ By running a single command, you will get a production-ready Node.js app install
 ```bash
 $ npm install -g express-server-kit
 ```
+OR
 
+```bash
+$ npx express-server-kit project_name
+```
 ## Quick Start 🏃‍♂️
 
 The quickest way to get started with express is to utilize the executable `express-server` to generate an application as shown below:
 
-Create (and start) the app in current folder:
-
-```bash
-$ express-server .
-$ npm run dev
-```
-
-OR, create (and start) the app (in `project_name` folder):
+ create (and start) the app (in `project_name` folder):
 
 ```bash
 $ express-server project_name
 $ cd project_name
+$ npm run dev
+```
+OR Create (and start) the app in current folder:
+
+```bash
+$ express-server .
 $ npm run dev
 ```
 

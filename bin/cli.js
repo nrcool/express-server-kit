@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "url";
-import logUpdate from "log-update";
 import chalk from "chalk";
 import fs from "fs-extra";
 import path from "path";
